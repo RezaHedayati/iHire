@@ -20,7 +20,7 @@ app.use(
 );
 
 // Set Static Folder
-app.use(express.static(path.join(__dirname, "i-hire")));
+app.use(express.static(path.join(__dirname, "client")));
 app.use(express.json());
 app.use("/api", candidates);
 app.use("/api", interviewers);
