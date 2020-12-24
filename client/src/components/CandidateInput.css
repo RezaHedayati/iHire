@@ -1,0 +1,6 @@
+.input-label {
+    align-items: left;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: red;
+  }
